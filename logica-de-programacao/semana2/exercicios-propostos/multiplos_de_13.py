@@ -16,12 +16,12 @@ Sample Input 	Sample Output
 x = int(input())
 y = int(input())
 
-if x > y:
-    x, y = y, x  
+X = min(x, y)
+Y = max(x, y) 
     
 soma = 0
 
-for i in range(x, y+1):
+for i in range(X, Y+1):
     if i % 13 != 0:
         soma += i
 print(soma)
