@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Página de Exercício Avançado</title> <!--Necessário o fechamento de title-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"> <!--Faltando essa linha do meta-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Corrija os Problemas desta Página</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li> <!--Corrigido a falta de fechamento da tag "a" e "li"-->
+                <li><a href="#sobre">Sobre</a></li> <!--Corrigido a falta de fechamento da tag "a" e "li"-->
+                <li><a href="#projetos">Projetos</a></li><!--Corrigido a falta de fechamento da tag "a" e "li"-->
+                <li><a href="#contato">Contato</a></li><!--Corrigido a falta de fechamento da tag "a"-->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Página Inicial</h2> <!--Corrigido a falta de fechamento da tag "h2"-->
+            <p>Exercício de correção prática:</p> <!--Corrigido a falta de fechamento da tag "p"-->
+            <ul>
+                <li>Verificação de tags</li> <!--Corrigido a falta de fechamento da tag "li"-->
+                <li>Estrutura semântica</li> <!--Corrigido a falta de fechamento da tag "li"-->
+                <li>Boas práticas</li> <!--Corrigido a falta de fechamento da tag "li"-->
+            </ul>
+        </section>
+
+        <section id="sobre">
+            <h2>Quem Somos</h2> <!--Corrigido a falta de fechamento da tag "h2"-->
+            <p>Uma plataforma focada no ensino de HTML e CSS.</p> <!--Corrigido a falta de fechamento da tag "p"-->
+            <ul>
+                <li>Cursos online</li> <!--Corrigido a falta de fechamento da tag "li"-->
+                <li>Projetos práticos</li> <!--Corrigido a falta de fechamento da tag "li"-->
+                <li>Suporte contínuo</li> <!--Corrigido a falta de fechamento da tag "li"-->
+            </ul>
+        </section>
+
+        <aside>
+            <h3>Dicas Rápidas</h3> <!--Corrigido a falta de fechamento da tag "h3"-->
+            <p>Revise seu código antes de publicar!</p> <!--Corrigido a falta de fechamento da tag "p"-->
+            <a href="#">Veja como fazer</a>
+        </aside>
+
+        <section id="projetos">
+            <h2>Projetos Recentes</h2> <!--Corrigido a falta de fechamento da tag "h2"-->
+            <p>Confira o que já desenvolvemos:</p> <!--Corrigido a falta de fechamento da tag "p"-->
+            <ol>
+                <li>Portal de Notícias</li> <!--Corrigido a falta de fechamento da tag "li"-->
+                <li>E-commerce de Livros</li> <!--Corrigido a falta de fechamento da tag "li"-->
+                <li>Blog de Tecnologia</li> <!--Corrigido a falta de fechamento da tag "li"-->
+            </ol>
+        </section>
+
+        <aside>
+            <h3>Parceiros</h3>
+            <p>Conheça nossos parceiros estratégicos</p> <!--Corrigido a falta de fechamento da tag "p"-->
+            <a href="#">Saiba mais</a> <!--Corrigido a falta de fechamento da tag "a" e identar aside-->
+        </aside>
+
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+
+            <p>Entre em contato usando nossos canais oficiais:</p> <!--Corrigido a falta de fechamento da tag "p"-->
+            <ul>
+                <li>Email: contato@siteexemplo.com</li> <!--Corrigido a falta de fechamento da tag "li"-->
+                <li>WhatsApp: (11) 90000-0000</li> <!--Corrigido a falta de fechamento da tag "li"-->
+                <li>LinkedIn: Empresa Exemplo</li> <!--Corrigido a falta de fechamento da tag "li"-->
+            </ul>
+
+            <form action="enviar.php" method="post"> <!--Corrigido a falta das aspas em method-->
+                <fieldset> <!--Adicionado um fieldset por conter um formulário para agrupar os campos relacionados aos dados pessoais.-->
+                    <legend>Dados pessoais</legend> <!--Adicionado uma legenda para o fieldset-->
+
+                    <label>Nome</label> <!--Corrigido a falta de fechamento da tag "label"-->
+                    <input name="nome" type="text"> <!--Corrigido a falta das aspas em "name" e "type"-->
+
+                    <label>Email</label> <!--Corrigido a falta de fechamento da tag label-->
+                    <input name="email" type="email"> <!--Corrigido a falta das aspas em "name" e "type"-->
+
+                    <label>Mensagem</label> <!--Corrigido a falta de fechamento da tag label-->
+                    <textarea name="mensagem" rows="4" cols="30"></textarea> <!--Corrigido a falta de fechamento da tag "textarea" e corrigido a falta das aspas em "name", "rows" e "cols"-->
+
+                    <input type="submit" value="Enviar"> <!--Corrigido a falta das aspas em "type" e "value"-->
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Plataforma de Estudos</p> <!--Corrigido a falta de fechamento da tag "p"-->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li> <!--Corrigido a falta de fechamento da tag "a" e "li"-->
+                <li><a href="#sobre">Sobre</a></li> <!--Corrigido a falta de fechamento da tag "a" e "li"-->
+                <li><a href="#projetos">Projetos</a></li> <!--Corrigido a falta de fechamento da tag "a" e "li"-->
+                <li><a href="#contato">Contato</a></li> <!--Corrigido a falta de fechamento da tag "a" e "li"-->
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
